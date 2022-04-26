@@ -16,7 +16,7 @@ export default {
 <template>
     <ul class="list-group">
         <li
-            class="list-group-item"
+            class="list-group-item list-group-item-action list-group-item-success"
             v-for="(restaurant, index) in restaurants"
             :key="restaurant.id"
             :class="{ active: index === activeIndex }"

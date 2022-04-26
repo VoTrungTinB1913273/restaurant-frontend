@@ -19,8 +19,8 @@ export default {
     <div class="input-group">
         <input
             type="text"
-            class="form-control"
-            placeholder="Nhập tên nhà hàng cần tìm"
+            class="form-control form-control-lg"
+            placeholder="Nhập từ khóa cần tìm"
             :value="modelValue"
             @input="updateModelValue"
             @keyup.enter="submit"

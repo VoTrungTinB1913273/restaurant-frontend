@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
         <a href="/" class="navbar-brand">Website Search Restaurant</a>
         <div class="mr-auto navbar-nav">
             <li class="nav-item">

@@ -21,7 +21,7 @@
                 </button>
 
                 <button class="btn btn-sm btn-info" @click="goToAddRestaurant">
-                    <i class="fas fa-plus"></i> Thêm mới
+                    <i class="fas fa-plus"></i> Thêm nhà hàng mới
                 </button>
 
                 <button

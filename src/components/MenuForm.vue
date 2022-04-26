@@ -52,7 +52,7 @@
                 v-model="menuLocal.trend"
             />
             <label for="favorite" class="form-check-label">
-                <strong>Xu hướng</strong>
+                <strong>Thích</strong>
             </label>
         </div>
 
@@ -93,14 +93,14 @@ export default {
                 .max(100, "Tên có nhiều nhất 100 ký tự."),
             price: yup
                 .string()
-                .required("giá tiền phải có giá trị.")
-                .min(2, "giá tiền phải ít nhất 2 ký tự.")
-                .max(100, "giá tiền có nhiều nhất 100 ký tự."),
+                .required("Giá tiền phải có giá trị.")
+                .min(2, "Giá tiền phải ít nhất 2 ký tự.")
+                .max(100, "Giá tiền có nhiều nhất 50 ký tự."),
             processingtime: yup
                 .string()
-                .required("thời gian chế biến phải có giá trị.")
-                .min(2, "thời gian chế biến phải ít nhất 20 ký tự.")
-                .max(100, "thời gian chế biến có nhiều nhất 500 ký tự."),
+                .required("Thời gian chế biến phải có giá trị.")
+                .min(2, "Thời gian chế biến phải ít nhất 20 ký tự.")
+                .max(100, "Thời gian chế biến có nhiều nhất 50 ký tự."),
             image: yup
                 .string()
                 .required("Ảnh phải có giá trị(đường link ảnh).")

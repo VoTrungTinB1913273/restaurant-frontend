@@ -21,7 +21,7 @@
                 </button>
 
                 <button class="btn btn-sm btn-info" @click="goToAddMenu">
-                    <i class="fas fa-plus"></i> Thêm mới
+                    <i class="fas fa-plus"></i> Thêm món mới
                 </button>
 
                 <button
